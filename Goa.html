@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Package</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="Packages.css" />
+    <style>
+        /* Basic styling for dropdown lists */
+        select {
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px; 
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- menu-bar section start -->
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <!-- menu-bar section end -->
+
+        <a href="#" class="logo"><span>s</span>kytravel</a>
+
+        <nav class="navbar">
+          <a href="index.php">Home</a>
+          <a href="index.php#Book">Book</a>
+          <a href="index.php#Packages">Packages</a>
+          <a href="index.php#Services">Services</a>
+          <a href="index.php#Gallery">Gallery</a>
+          <a href="index.php#Review">Review</a>
+          <a href="index.php#Contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-search" id="search-btn"></i>
+          <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+          <input type="search" id="search-bar" placeholder="Search Here....." />
+          <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends -->
+    <section class="section section-left">
+        <div class="paras">
+            <div class="box-container">
+                <div class="box">
+                    <h1 class="sectionTag text-big">Premium</h1>
+                    <img src="media/goa3.jpg" />
+                    <p class="sectionSubTag text-small">
+                        <ul>5 DAYS & 6 NIGHTS</ul>
+                        <ul>Luxury Room in Best Rated Beach Resorts</ul>
+                        <ul>Private Beach Access & Water Sports</ul>
+                        <ul>Luxury Transportation</ul>
+                        <ul>Exclusive Nightlife Tour</ul>
+                        <ul>Price - 24999/-</ul>
+                    </p>
+                </div>
+                <div class="box">
+                    <h1 class="sectionTag text-big">Deluxe</h1>
+                    <img src="media/goa1.jpg" />
+                    <p class="sectionSubTag text-small">
+                        <ul>5 DAYS & 6 NIGHTS</ul>
+                        <ul>Comfort Room in Highly Rated Hotels</ul>
+                        <ul>Guided Beach Tours & Water Sports</ul>
+                        <ul>Comfortable Transportation</ul>
+                        <ul>Nightlife Experience</ul>
+                        <ul>Price - 19999/-</ul>
+                    </p>
+                </div>
+                <div class="box">
+                    <h1 class="sectionTag text-big">Standard</h1>
+                    <img src="media/goa-2.jpg" />
+                    <p class="sectionSubTag text-small">
+                        <ul>5 DAYS & 6 NIGHTS</ul>
+                        <ul>Standard Room in Well-Rated Hotels</ul>
+                        <ul>Beach Visits & Water Activities</ul>
+                        <ul>Basic Transportation</ul>
+                        <ul>Local Nightlife Access</ul>
+                        <ul>Price - 14999/-</ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="media/t1.jpg">
+            </div>
+            <form action="package.php" method="POST">
+                <div class="inputBox">
+                    <input type="text" name="name" placeholder="Name"> 
+                    <input type="email" name="email" placeholder="Email"> 
+                </div>
+                <div class="inputBox">
+                    <select name="package">
+                        <option value="" disabled selected>Choose Package</option>
+                        <option value="Goa-Premium">Premium</option>
+                        <option value="Goa-Deluxe">Deluxe</option>
+                        <option value="Goa-Standard">Standard</option>
+                    </select>
+                    <select name="deal">
+                        <option value="" disabled selected>Choose Deal</option>
+                        <option value="24999/-">24999/-</option>
+                        <option value="19999/-">19999/-</option>
+                        <option value="14999/-">14999/-</option>
+                    </select>
+                </div>
+                <textarea placeholder="Message" name="message" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Pay Now" name="submit">
+            </form>
+        </div>
+    </section>
+    <!-- contact section end -->
+    <!-- brand section start -->
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="media/z1.jpg"></div>
+                <div class="swiper-slide"><img src="media/z2.jpg"></div>
+                <div class="swiper-slide"><img src="media/z3.jpg"></div>
+                <div class="swiper-slide"><img src="media/z4.jpg"></div>
+                <div class="swiper-slide"><img src="media/z5.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <!-- brand section end -->
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>This travel agent job description template is optimized for posting on online job boards or careers pages..</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Agra</a>
+                <a href="#">Delhi</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Dehradun</a>
+                <a href="#">Udaipur</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit">created by <span>Parthi, Birwa & Priya</span></h1>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- js file link -->
+    <script src="index.js"></script>
+</body>
+</html>
